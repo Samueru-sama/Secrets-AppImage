@@ -22,6 +22,7 @@ export STARTUPWMCLASS=secrets # For Wayland, this is 'org.gnome.World.Secrets', 
 
 # Deploy dependencies
 quick-sharun /usr/bin/secrets \
+             /usr/bin/ld \
              /usr/lib/libgirepository* \
              /usr/lib/libusb* \
              /usr/lib/libcups*
